@@ -15,6 +15,7 @@ body {
   background-color: var(--background-color);
   color: var(--text-color);
   -moz-transform-origin: 0 0;
+  align-items: center;
 }
 
 a {
@@ -22,7 +23,7 @@ a {
 }
 
 button {
-	border: 0;
+  border: 0;
   font-family: Typewriter, serif;
   font-size: 1rem;
   margin: 2px;
@@ -34,6 +35,22 @@ input[type=checkbox] {
   width: calc(12px * var(--checkbox-scale));
   height: calc(12px * var(--checkbox-scale));
   top: calc(-6px * (var(--checkbox-scale) - 1));
+}
+
+li {
+  text-align: left;
+  margin-bottom: 12;
+}
+
+div {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+#instructionStart {
+	text-align: left;
+	margin-left: 0;
+	margin-right: 0;
 }
 
 .options-button {
